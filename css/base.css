@@ -10,6 +10,10 @@
 }
 @font-face {
     font-family: 'AlibabaSans-Light';
+    src:url(../AlibabaSans-Light.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Alibaba-PuHuiTi-Heavy';
     src:url(../Alibaba-PuHuiTi-Heavy.ttf) format('truetype');
 }
 a {
@@ -61,4 +65,5 @@ li {
 .main .hi .textbox .tit {
 	font-weight: bold;
 	font-size: 150px;
+    font-family: Alibaba-PuHuiTi-Heavy;
 }
