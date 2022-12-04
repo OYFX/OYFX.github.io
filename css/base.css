@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+	body {
+	
+	font-family: 'AlibabaSans-Light';
+   font-size: 100%;
+}
+@font-face {
+    font-family: 'AlibabaSans-Light';
+    src:url(../Alibaba-PuHuiTi-Heavy.ttf) format('truetype');
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.main nav {
+    width: 100%;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 150px;
+}
+
+ul,
+li {
+    list-style: none;
+}.kg {
+	margin: 20px;
+	padding: 10px;
+}
+.col4 {
+	float: left;
+	width: 100%;
+}
+.clear { clear:both;}.kg img {
+	height: auto;
+	width: 100%;
+}
+.about img {
+	height: auto;
+	width: 40%;
+}
+.about {
+	text-align: center;
+}
+.main .hi .textbox .tit {
+	font-weight: bold;
+	font-size: 150px;
+}
