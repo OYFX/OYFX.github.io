@@ -9,8 +9,12 @@
    font-size: 100%;
 }
 @font-face {
-    font-family: 'AlibabaSans-Light';
-    src:url(../AlibabaSans-Light.otf) format('truetype');
+	font-family: AlibabaSans-Light;
+	src:url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaSans/AlibabaSans-Light/AlibabaSans-Light.eot) format('embedded-opentype'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaSans/AlibabaSans-Light/AlibabaSans-Light.otf) format('opentype'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaSans/AlibabaSans-Light/AlibabaSans-Light.ttf) format('TrueType'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaSans/AlibabaSans-Light/AlibabaSans-Light.woff) format('woff'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaSans/AlibabaSans-Light/AlibabaSans-Light.woff2) format('woff2');
 }
 @font-face {
 	font-family: Alibaba-PuHuiTi-Heavy;
