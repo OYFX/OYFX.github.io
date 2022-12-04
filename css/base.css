@@ -67,3 +67,6 @@ li {
 	font-size: 150px;
     font-family: Alibaba-PuHuiTi-Heavy;
 }
+.navitem:hover {
+    font-size: 30px;
+}
