@@ -13,8 +13,12 @@
     src:url(../AlibabaSans-Light.otf) format('truetype');
 }
 @font-face {
-    font-family: 'Alibaba-PuHuiTi-Heavy';
-    src:url(../Alibaba-PuHuiTi-Heavy.ttf) format('truetype');
+	font-family: Alibaba-PuHuiTi-Heavy;
+	src:url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi/Alibaba-PuHuiTi-Heavy/Alibaba-PuHuiTi-Heavy.eot) format('embedded-opentype'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi/Alibaba-PuHuiTi-Heavy/Alibaba-PuHuiTi-Heavy.otf) format('opentype'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi/Alibaba-PuHuiTi-Heavy/Alibaba-PuHuiTi-Heavy.ttf) format('TrueType'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi/Alibaba-PuHuiTi-Heavy/Alibaba-PuHuiTi-Heavy.woff) format('woff'),
+url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi/Alibaba-PuHuiTi-Heavy/Alibaba-PuHuiTi-Heavy.woff2) format('woff2');
 }
 a {
     text-decoration: none;
