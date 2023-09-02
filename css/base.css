@@ -8,6 +8,9 @@
 	font-family: 'AlibabaSans-Light';
    font-size: 100%;
 }
+
+
+
 @font-face {
 	font-family: AlibabaSans-Light;
 	src:url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaSans/AlibabaSans-Light/AlibabaSans-Light.eot) format('embedded-opentype'),
@@ -26,7 +29,7 @@ url(https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi/Alibaba-PuHuiTi-
 }
 a {
     text-decoration: none;
-    color: #333;
+    color: rgb(82,161,194);
 }
 
 html {
@@ -34,7 +37,8 @@ html {
 }
 
 .main {
-    width: 1500px;
+    width: 100%;
+    max-width: 1350px;
     margin: 0 auto;
 }
 
@@ -75,6 +79,6 @@ li {
 	font-size: 150px;
     font-family: Alibaba-PuHuiTi-Heavy;
 }
-.navitem:hover {
-    font-size: 30px;
-}
+
+
+
