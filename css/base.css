@@ -9,18 +9,18 @@
    font-size: 100%;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1500px) {
     body{
-        max-width: 1200px;
+        max-width: 1500px;
     }
     .main{
         padding: 20px;
         
     }
-
     .main nav{
+        display: flex;
+        justify-content: space-between;
         margin: 0px auto;
-        max-width: 1100px;
     }
     img{
         width: 300px!important;
@@ -46,6 +46,10 @@
         margin-left: 20px;
 
     }
+}
+
+.navitem{
+    text-align: center;
 }
 
 .navitem a{
@@ -87,7 +91,7 @@ html {
 
 .main {
     width: 100%;
-    max-width: 1350px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
