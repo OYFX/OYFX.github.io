@@ -111,6 +111,7 @@ li {
  }
 .col4 {
 	float: left;
+    font-size: 0px;
 	width: 100%;
 }
 .clear { clear:both;}.kg img {
