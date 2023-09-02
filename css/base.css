@@ -86,8 +86,7 @@ html {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
-    transform-origin: top center;
-    transform: scale(.8);
+
 
 }
 
@@ -99,6 +98,8 @@ html {
     justify-content: space-between;
     align-items: center;
     line-height: 150px;
+    transform-origin: top center;
+    transform: scale(.8);
 }
 
 ul,
@@ -118,14 +119,12 @@ li {
 }
 .about img {
 	height: auto;
-	width: 40%;
+	width: 100%;
 }
 .about {
 	text-align: center;
 }
 
-.main .hi{
-}
 .main .hi .textbox .tit {
 	font-weight: bold;
 	font-size: 150px;
