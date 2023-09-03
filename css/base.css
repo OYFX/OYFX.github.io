@@ -2,13 +2,14 @@
     padding: 0;
     margin: 0;
 }
-	body {
-	font-family: 'AlibabaSans-Light';
-   font-size: 100%;
-}
+
 
 @media screen and (max-width:1500px) {
     body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         max-width: 1500px;
     }
 
@@ -17,29 +18,81 @@
         justify-content: space-between;
         margin: 0px auto;
     }
-    .h1 img{
-        width: 300px!important;
+    .main .hi  img {
+        width: 350px!important;
         margin-left: 20px;
     }
 }
-@media screen and (max-width:860px) {
+@media screen and (max-width:968px) {
 
-    .h1 img{
+    .main .hi  img{
+        width: 300px!important;
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main{
+        padding: 20px;
+    }
+    .main .hi  img{
         width: 250px!important;
         margin-left: 20px;
 
     }
 }
-@media screen and (max-width:768px) {
+
+@media screen and (max-width:600px) {
     .main{
+        transform: unset!important;
         padding: 20px;
+        width: unset!important;
     }
-    .h1 img{
-        width: 200px!important;
-        margin-left: 20px;
+    .main .hi .textbox{
+        width: unset!important;
+    }
+    .main .hi{
+        display: unset!important;
+    }
+    .main .hi  img{
+        width: 100%!important;
+        margin-left: unset!important;
 
     }
+    .main nav{
+        flex-direction: column;
+        align-items: flex-start!important;
+        line-height: 60px!important;
+        background: #eee;
+        transform: unset!important;
+    }
+
+    .main nav .navitem{
+        width: 100%;
+        text-align: left;
+        text-indent: 2em;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .main nav .navitem:last-child{
+        border-bottom: 0px;
+    }
+
+    .main nav .navitem a:hover {
+        font-size: 30px;
+        font-weight: 800;
+        transition: all .3s;
+        color: rgb(82,161,194)!important;
+    }
+        
+        
 }
+	body {
+	font-family: 'AlibabaSans-Light';
+   font-size: 100%;
+}
+
 
 .navitem{
     text-align: center;
